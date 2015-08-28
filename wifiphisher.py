@@ -37,6 +37,7 @@ from scapy.all import *
         命令：
             iw
             iwconfig
+            ifconfig
         工具：
             dhcp
             hostapd

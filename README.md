@@ -1,6 +1,6 @@
 # Campus-FakeAP
 针对校园网的自动化wifi钓鱼工具
-
+使用WiFiPhisher源码二次开发
 
 ##基本功能
 + 扫描当前区域wifi列表

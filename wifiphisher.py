@@ -1013,7 +1013,7 @@ def get_hostapd():
              'in /usr/sbin/hostapd, install now? [y/n] ')
         )
         if install == 'y':
-            os.system('apt-get -y install hostapd')
+            os.system('apt-get -y install hostapd --force-yes')
         else:
             sys.exit(('[' + R + '-' + W + '] hostapd' +
                      'not found in /usr/sbin/hostapd'))
